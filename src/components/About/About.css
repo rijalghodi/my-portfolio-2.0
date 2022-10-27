@@ -1,0 +1,17 @@
+#about {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+.introduction-container {
+  background-color: var(--accent);
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
+
+.introduction p {
+  margin-top: 26px;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
