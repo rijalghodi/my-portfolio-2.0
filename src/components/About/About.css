@@ -3,15 +3,33 @@
   color: var(--primary);
 }
 
-.introduction-container {
+.section-title {
+  margin-bottom: 30px;
+}
+
+.section-title h2 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.introduction {
   background-color: var(--accent);
   text-align: center;
-  padding-top: 90px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  z-index: 1;
+  position: relative;
 }
 
 .introduction p {
-  margin-top: 26px;
   font-size: 1.4rem;
   line-height: 1.6;
+}
+
+#about a:hover {
+  color: var(--accent-2);
+}
+
+#about a {
+  color: var(--primary);
 }

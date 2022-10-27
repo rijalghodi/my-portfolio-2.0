@@ -6,7 +6,7 @@ import Jumbotron from "./components/Jumbotron/Jumbotron";
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0 m-0">
       <Header />
       <Jumbotron />
       <About />

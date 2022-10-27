@@ -1,0 +1,27 @@
+.card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card span:hover,
+.card a:hover {
+  color: var(--accent-2) !important;
+  cursor: pointer;
+}
+
+.card span,
+.card a {
+  color: #6b07ed !important;
+}
+
+.card .btn-credential:hover {
+  background-color: var(--accent-2) !important;
+  color: white !important;
+  border: 2px solid var(--accent-2);
+}
+
+.card .btn-credential {
+  background-color: transparent;
+  color: var(--accent-2) !important;
+  border: 2px solid var(--accent-2);
+  border-radius: 100px;
+}
