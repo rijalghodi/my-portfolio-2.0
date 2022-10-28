@@ -11,7 +11,7 @@ export default function Portfolio() {
           <h2>My Recent Works</h2>
         </div>
 
-        <div class="row portfolio-container justify-content-center">
+        <div class="portfolio-container row justify-content-center">
           {projectsData &&
             projectsData
               .filter(({ isPinned }) => isPinned)
@@ -24,17 +24,22 @@ export default function Portfolio() {
                       <h4>{title}</h4>
                       <p>{description}</p>
                       <div class="portfolio-links">
-                        <a href={githubUrl} target="_blank" rel="noreferrer" title="Open github">
-                          <FaGithub />
-                        </a>
                         <a href={deploymentUrl} target="_blank" rel="noreferrer" title="View project">
-                          <button className="btn my-btn-secondary visit-project-btn"> Visit Project</button>
+                          <button className="btn my-btn-primary">Visit Web</button>
+                        </a>
+                        <a href={githubUrl} target="_blank" rel="noreferrer" title="Open github">
+                          <button className="btn my-btn-secondary">See Github</button>
                         </a>
                       </div>
                     </div>
                   </div>
                 </div>
               ))}
+        </div>
+        <div className="row justify-content-center">
+          <div className="col-auto">
+            <button className="btn our-btn-primary">See more</button>
+          </div>
         </div>
       </div>
     </section>

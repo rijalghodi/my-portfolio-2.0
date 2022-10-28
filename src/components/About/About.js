@@ -8,7 +8,7 @@ export default function About() {
     <section id="about" className="about">
       <div className="introduction container-fluid">
         <div className="row justify-content-center ">
-          <div className="introduction col-8" data-aos="fade-left">
+          <div className="col-8" data-aos="fade-left">
             <div className="section-title">
               <h2>Hi, I'm Rijal. Nice to meet you.</h2>
             </div>

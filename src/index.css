@@ -48,7 +48,8 @@ a:hover {
 }
 
 .my-btn-primary:hover {
-  background-color: var(--accent-2);
+  background-color: #ac61de !important;
+  border: 2px solid #ac61de !important;
   color: var(--secondary) !important;
 }
 
@@ -68,5 +69,30 @@ a:hover {
   background-color: transparent;
   color: var(--accent-2) !important;
   border: 2px solid var(--accent-2);
+  border-radius: 100px;
+}
+
+.our-btn-primary:hover {
+  background-color: #9ce968 !important;
+  border: 2px solid #9ce968 !important;
+  color: var(--primary) !important;
+}
+
+.our-btn-primary {
+  background-color: var(--accent);
+  color: var(--primary) !important;
+  border: 2px solid var(--accent);
+  border-radius: 100px;
+}
+
+.our-btn-secondary:hover {
+  background-color: var(--accent) !important;
+  color: var(--primary) !important;
+}
+
+.our-btn-secondary {
+  background-color: transparent;
+  color: var(--accent) !important;
+  border: 2px solid var(--accent);
   border-radius: 100px;
 }
