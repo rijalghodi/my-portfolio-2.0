@@ -10,8 +10,11 @@ export default function Skills() {
       </div>
       <div className="row gx-0 gy-0">
         {skillsData &&
-          skillsData.map(({ category, skills }) => (
+          skillsData.map(({ icon: Icon, category, skills }) => (
             <div key={category} className="skill-bundle col-lg-4 col-md-12">
+              <div className="skills-icon">
+                <Icon />
+              </div>
               <h3>{category}</h3>
               <ul>
                 {skills &&

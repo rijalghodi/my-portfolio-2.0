@@ -1,10 +1,17 @@
 /* Header */
-.header {
+#header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--primary);
+  z-index: 300;
+}
+
+.header-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  /* position: absolute; */
 }
 
 /*--------------------------------------------------------------

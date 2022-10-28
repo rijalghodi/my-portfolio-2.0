@@ -46,3 +46,27 @@ a:hover {
   color: var(--accent);
   text-decoration: none;
 }
+
+.my-btn-primary:hover {
+  background-color: var(--accent-2);
+  color: var(--secondary) !important;
+}
+
+.my-btn-primary {
+  background-color: var(--accent-2);
+  color: var(--secondary) !important;
+  border: 2px solid var(--accent-2);
+  border-radius: 100px;
+}
+
+.my-btn-secondary:hover {
+  background-color: var(--accent-2) !important;
+  color: var(--secondary) !important;
+}
+
+.my-btn-secondary {
+  background-color: transparent;
+  color: var(--accent-2) !important;
+  border: 2px solid var(--accent-2);
+  border-radius: 100px;
+}

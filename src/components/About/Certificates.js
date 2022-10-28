@@ -1,6 +1,7 @@
 import React from "react";
 import certificatesData from "../../store/certificatesData";
 import "./Certificates.css";
+import { FiExternalLink } from "react-icons/fi";
 
 export default function Certificates() {
   return (
@@ -8,27 +9,28 @@ export default function Certificates() {
       <div className="section-title">
         <h2>Certificates I earn</h2>
       </div>
-      <div className="row gy-5 gx-lg-5 gx-md-3 justify-content-center">
-        {/* Card */}
+
+      <ul className="certificate-list">
         {certificatesData &&
           certificatesData.map(({ title, issuedBy, date, description, image, credential }) => (
-            <div key={title} className="certificate col-lg-6 col-md-12 py-4 px-4 ">
-              <div className="card">
-                <img src={image} className="card-img-top" alt={title} />
-                <div className="card-body text-center pb-4">
-                  <h5 className="card-title">{title}</h5>
-                  <p>
-                    Issued by <a href={issuedBy.url}>{issuedBy.company}</a> on <span>{date.toDateString()}</span>
-                  </p>
-                  <p className="card-text">{description}</p>
-                  <a href={credential} className="btn btn-outline-danger btn-credential">
-                    Show credential
-                  </a>
+            <li key={title} className="row gy-lg-3 gy-2 justify-content-center">
+              <div className="certificate col-lg-8 col-md-10 col-sm-12 py-4 px-4 ">
+                <img src={issuedBy.companyLogo} className="card-img-top" alt={title} />
+                <div className="certificate-body ms-0 px-4">
+                  <h3 className="certificate-title">{title}</h3>
+                  <a href={issuedBy.url}>{issuedBy.company}</a>
+                  <p>Issued {date.toDateString().slice(4)}</p>
+                  <div className="buttons">
+                    <button className="btn my-btn-secondary">What I Learn</button>
+                    <button href={credential} className="btn my-btn-secondary ms-2">
+                      Show credential <FiExternalLink />
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
+            </li>
           ))}
-      </div>
+      </ul>
     </div>
   );
 }

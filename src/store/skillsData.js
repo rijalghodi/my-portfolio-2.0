@@ -1,5 +1,8 @@
+import { FaCode, FaReact, FaGitAlt } from "react-icons/fa";
+
 const skillsData = [
   {
+    icon: FaCode,
     category: "Web Dev",
     skills: [
       {
@@ -33,6 +36,7 @@ const skillsData = [
   // ========================================================= //
 
   {
+    icon: FaReact,
     category: "Front-end Framework",
     skills: [
       {
@@ -51,6 +55,7 @@ const skillsData = [
     ],
   },
   {
+    icon: FaGitAlt,
     category: "Supporting Tools",
     skills: [
       {

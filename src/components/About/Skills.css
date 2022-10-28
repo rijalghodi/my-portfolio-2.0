@@ -3,7 +3,7 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   border-radius: 20px;
   position: relative;
-  bottom: 100px;
+  bottom: 120px;
   z-index: 10;
   background-color: var(--secondary);
 }
@@ -12,6 +12,18 @@
   text-align: center;
   /* border: 1px solid rgba(0, 0, 0, 0.16); */
   padding: 20px;
+}
+
+.skills-icon {
+  background-color: var(--accent-2);
+  color: var(--secondary);
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 1.9rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 24px;
 }
 
 .skill-bundle h3 {
