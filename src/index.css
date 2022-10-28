@@ -47,52 +47,101 @@ a:hover {
   text-decoration: none;
 }
 
+/* PURPLE BUTTON */
 .my-btn-primary:hover {
   background-color: #ac61de !important;
   border: 2px solid #ac61de !important;
   color: var(--secondary) !important;
+  transform: translateY(-3px);
 }
 
 .my-btn-primary {
   background-color: var(--accent-2);
   color: var(--secondary) !important;
   border: 2px solid var(--accent-2);
-  border-radius: 100px;
+  border-radius: 6px;
+  transition: 0.3s ease;
 }
 
 .my-btn-secondary:hover {
   background-color: var(--accent-2) !important;
   color: var(--secondary) !important;
+  transform: translateY(-3px);
 }
 
 .my-btn-secondary {
   background-color: transparent;
   color: var(--accent-2) !important;
   border: 2px solid var(--accent-2);
-  border-radius: 100px;
+  border-radius: 6px;
+  transition: 0.3s ease;
 }
+
+/* DARK BUTTON */
+
+.dark-btn-primary:hover {
+  background-color: #132f4b !important;
+  color: #a0ee6c !important;
+  transform: translateY(-3px);
+}
+
+.dark-btn-primary {
+  background-color: var(--primary);
+  color: #a0ee6c !important;
+  border: 2px solid var(--primary) !important;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.dark-btn-secondary:hover {
+  background-color: var(--primary) !important;
+  color: var(--secondary) !important;
+  transform: translateY(-3px);
+}
+
+.dark-btn-secondary {
+  background-color: transparent;
+  color: var(--primary) !important;
+  border: 2px solid var(--primary);
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+/* GREEEN BUTTON */
 
 .our-btn-primary:hover {
   background-color: #9ce968 !important;
   border: 2px solid #9ce968 !important;
   color: var(--primary) !important;
+  transform: translateY(-3px);
 }
 
 .our-btn-primary {
   background-color: var(--accent);
   color: var(--primary) !important;
   border: 2px solid var(--accent);
-  border-radius: 100px;
+  border-radius: 6px;
+  transition: 0.3s ease;
 }
 
 .our-btn-secondary:hover {
   background-color: var(--accent) !important;
   color: var(--primary) !important;
+  transform: translateY(-3px);
 }
 
 .our-btn-secondary {
   background-color: transparent;
   color: var(--accent) !important;
   border: 2px solid var(--accent);
-  border-radius: 100px;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.big-btn {
+  font-size: 1.4rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  padding-left: 2.7rem;
+  padding-right: 2.7rem;
 }

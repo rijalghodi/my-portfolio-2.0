@@ -10,7 +10,7 @@ export default function Certificates() {
         <h2>Certificates I earn</h2>
       </div>
 
-      <ul className="certificate-list">
+      <ul className="certificate-list pb-4">
         {certificatesData &&
           certificatesData.map(({ title, issuedBy, date, description, image, credential }) => (
             <li key={title} className="row gy-lg-3 gy-2 justify-content-center">
@@ -31,6 +31,12 @@ export default function Certificates() {
             </li>
           ))}
       </ul>
+
+      <div className="row justify-content-center">
+        <div className="col-auto">
+          <button className="btn my-btn-primary big-btn">See more</button>
+        </div>
+      </div>
     </div>
   );
 }

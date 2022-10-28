@@ -11,13 +11,13 @@ export default function Portfolio() {
           <h2>My Recent Works</h2>
         </div>
 
-        <div class="portfolio-container row justify-content-center">
+        <div class="portfolio-container row justify-content-center align-item-start pb-5 mb-4">
           {projectsData &&
             projectsData
               .filter(({ isPinned }) => isPinned)
               .slice(0, 6)
               .map(({ title, description, githubUrl, deploymentUrl, image, category, date, isPinned }) => (
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="col-lg-4 col-md-6 gy-4 gx-4">
                   <div class="portfolio-wrap">
                     <img src={image} class="img-fluid" alt="Songify" />
                     <div class="portfolio-info">
@@ -25,10 +25,10 @@ export default function Portfolio() {
                       <p>{description}</p>
                       <div class="portfolio-links">
                         <a href={deploymentUrl} target="_blank" rel="noreferrer" title="View project">
-                          <button className="btn my-btn-primary">Visit Web</button>
+                          <button className="btn our-btn-primary">Visit Web</button>
                         </a>
                         <a href={githubUrl} target="_blank" rel="noreferrer" title="Open github">
-                          <button className="btn my-btn-secondary">See Github</button>
+                          <button className="btn our-btn-secondary">See Github</button>
                         </a>
                       </div>
                     </div>
@@ -38,7 +38,7 @@ export default function Portfolio() {
         </div>
         <div className="row justify-content-center">
           <div className="col-auto">
-            <button className="btn our-btn-primary">See more</button>
+            <button className="btn dark-btn-primary big-btn">See more</button>
           </div>
         </div>
       </div>
