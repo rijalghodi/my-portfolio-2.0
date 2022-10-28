@@ -1,6 +1,9 @@
 import React from "react";
 import "./Jumbotron.css";
-import { FaInstagram, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaTwitter, FaHome } from "react-icons/fa";
+import { GrMail } from "react-icons/gr";
+import "../Footer/Footer.css";
+import SocialLinks from "../Footer/SocialLinks";
 
 export default function Jumbotron() {
   return (
@@ -14,22 +17,7 @@ export default function Jumbotron() {
         <h2>
           A passionate self-taught <span>front-end engineer</span>
         </h2>
-
-        <div className="social-links">
-          <a href="https://twitter.com/rjlghd" className="twitter">
-            <FaTwitter />
-          </a>
-          {/* <a href="#" className="facebook"><i className="bi bi-facebook"></i></a> --> */}
-          <a href="https://instagram.com/rizal.ghod" className="instagram">
-            <FaInstagram />
-          </a>
-          <a href="https://www.linkedin.com/in/rijal-ghodi/" className="linkedin">
-            <FaLinkedinIn />
-          </a>
-          <a href="https://github.com/rijalghodi/" className="github">
-            <FaGithub />
-          </a>
-        </div>
+        <SocialLinks />
       </div>
     </div>
   );
