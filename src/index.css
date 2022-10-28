@@ -110,14 +110,14 @@ a:hover {
 
 /* GREEEN BUTTON */
 
-.our-btn-primary:hover {
+.light-btn-primary:hover {
   background-color: #9ce968 !important;
   border: 2px solid #9ce968 !important;
   color: var(--primary) !important;
   transform: translateY(-3px);
 }
 
-.our-btn-primary {
+.light-btn-primary {
   background-color: var(--accent);
   color: var(--primary) !important;
   border: 2px solid var(--accent);
@@ -125,13 +125,13 @@ a:hover {
   transition: 0.3s ease;
 }
 
-.our-btn-secondary:hover {
+.light-btn-secondary:hover {
   background-color: var(--accent) !important;
   color: var(--primary) !important;
   transform: translateY(-3px);
 }
 
-.our-btn-secondary {
+.light-btn-secondary {
   background-color: transparent;
   color: var(--accent) !important;
   border: 2px solid var(--accent);

@@ -1,19 +1,19 @@
 import React from "react";
 import "./Header.css";
-import logoDark from "../../assets/image/logo-rg-dark.svg";
-import logoLight from "../../assets/image/logo-rg-light.svg";
+import myLogoDark from "../../assets/image/logo-rg-dark.svg";
+import myLogoLight from "../../assets/image/logo-rg-light.svg";
 
 export default function Header() {
   return (
     <header id="header" className="container-fluid">
       <div className="header-wrap container">
         <a className="navbar-brand">
-          <img src={logoLight} alt="Logo" />
+          <img src={myLogoLight} alt="My Logo" />
         </a>
         <nav id="navbar" className="navbar">
           <ul>
             <li>
-              <a className="nav-link active" href="#header">
+              <a className="nav-link" href="#header">
                 Home
               </a>
             </li>

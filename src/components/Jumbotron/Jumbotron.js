@@ -5,7 +5,7 @@ import { FaInstagram, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 export default function Jumbotron() {
   return (
     <div id="jumbotron" className="row justify-content-center">
-      <div class="container">
+      <div className="container">
         <h1>
           <a href="index.html">RIJAL GHODI</a>
         </h1>
@@ -15,18 +15,18 @@ export default function Jumbotron() {
           A passionate self-taught <span>front-end engineer</span>
         </h2>
 
-        <div class="social-links">
-          <a href="https://twitter.com/rjlghd" class="twitter">
+        <div className="social-links">
+          <a href="https://twitter.com/rjlghd" className="twitter">
             <FaTwitter />
           </a>
-          {/* <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> --> */}
-          <a href="https://instagram.com/rizal.ghod" class="instagram">
+          {/* <a href="#" className="facebook"><i className="bi bi-facebook"></i></a> --> */}
+          <a href="https://instagram.com/rizal.ghod" className="instagram">
             <FaInstagram />
           </a>
-          <a href="https://www.linkedin.com/in/rijal-ghodi/" class="linkedin">
+          <a href="https://www.linkedin.com/in/rijal-ghodi/" className="linkedin">
             <FaLinkedinIn />
           </a>
-          <a href="https://github.com/rijalghodi/" class="github">
+          <a href="https://github.com/rijalghodi/" className="github">
             <FaGithub />
           </a>
         </div>

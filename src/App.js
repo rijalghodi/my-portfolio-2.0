@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Jumbotron from "./components/Jumbotron/Jumbotron";
@@ -13,6 +14,7 @@ function App() {
       <Jumbotron />
       <About />
       <Portfolio />
+      <Contact />
       <Footer />
     </div>
   );

@@ -1,0 +1,37 @@
+#contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#contact p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  color: var(--secondary);
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  transform: none;
+  border: 1px solid var(--accent) !important;
+  box-shadow: 0 0px 3px var(--accent) !important;
+  -moz-box-shadow: 0 0 3px var(--accent) !important;
+  -webkit-box-shadow: 0 0 3px var(--accent) !important;
+}
+
+.form-control {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 1.1rem;
+  background-color: transparent;
+  color: var(--secondary);
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  border-radius: 0px;
+  transition: all 0.3s ease 0s;
+}
+
+.notification {
+  color: var(--accent);
+  margin-top: 30px;
+}
