@@ -115,9 +115,3 @@
   bottom: 15px;
   right: 15px;
 }
-
-#more-projects-btn:hover {
-  /* color: var(--accent) !important; */
-  background-color: #132f4b !important;
-  transform: translateY(-5px);
-}
