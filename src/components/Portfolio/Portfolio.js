@@ -22,7 +22,7 @@ export default function Portfolio() {
                   <div className="portfolio-wrap">
                     <img src={image} className="img-fluid" alt="Songify" />
                     <div className="portfolio-info">
-                      <h4>{title}</h4>
+                      <h3>{title}</h3>
                       <p>{description}</p>
                       <div className="portfolio-links">
                         <a href={deploymentUrl} target="_blank" rel="noreferrer" title="View project">

@@ -16,7 +16,7 @@ export default function Footer() {
         </div>
         <div className="row justify-content-center">
           <div className="col-auto text-center">
-            <h4 className="mb-4">Initialize and Grow</h4>
+            <p className="motto mb-4">Initialize and Grow</p>
             <SocialLinks />
             <p>Handcrafted by © Rijal Ghodi 2022</p>
           </div>

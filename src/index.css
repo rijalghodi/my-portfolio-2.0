@@ -8,7 +8,7 @@
   --secondary-2: #e7efed;
   --primary: #05192d;
   --primary-2: #041425;
-  --accent-2: #58ad1f;
+  --accent-2: #468c18;
   --accent-3: #9f40dd;
   --accent: #7fdd40;
   font-size: 16px;
@@ -51,8 +51,8 @@ a:hover {
 /* (GREEN WHITE) BRIGHT BUTTON */
 
 .bright-btn-primary:hover {
-  background-color: var(--accent) !important;
-  border: 2px solid var(--accent) !important;
+  background-color: var(--accent-2) !important;
+  border: 2px solid var(--accent-2) !important;
   color: var(--secondary) !important;
   transform: translateY(-3px);
 }
