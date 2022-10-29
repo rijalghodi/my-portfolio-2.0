@@ -16,6 +16,20 @@
   transition: ease-in-out 0.3s;
 }
 
+#jumbotron .hero-wrapper {
+  background: rgba(255, 255, 255, 0.27);
+  width: 200px;
+  height: 200px;
+  border-radius: 1000px;
+  margin: 0 auto 40px auto;
+  overflow: hidden;
+}
+
+#jumbotron .hero {
+  width: 100%;
+  object-fit: cover;
+}
+
 #jumbotron h1 {
   font-size: 3rem;
   margin: 0;

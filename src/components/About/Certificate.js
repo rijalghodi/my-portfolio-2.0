@@ -4,7 +4,6 @@ import { FiExternalLink } from "react-icons/fi";
 
 export default function Certificate({ data }) {
   const { title, issuedBy, date, courseUrl, credential } = data;
-  console.log(title);
   return (
     <div className="certificate col-lg-8 col-md-10 col-sm-12 py-4 px-4 ">
       <img alt={title} src={issuedBy.companyLogo} className="card-img-top" />

@@ -2,16 +2,18 @@ import React from "react";
 import "./Jumbotron.css";
 import "../Footer/Footer.css";
 import SocialLinks from "../Footer/SocialLinks";
+import smilingTitan from "../../assets/image/smiling-titan.png";
 
 export default function Jumbotron() {
   return (
     <div id="jumbotron" className="row justify-content-center">
       <div className="container">
+        <div className="hero-wrapper">
+          <img src={smilingTitan} alt="Hero Image" className="hero" />
+        </div>
         <h1>
           <a href="index.html">RIJAL GHODI</a>
         </h1>
-        {/* Uncomment below if you prefer to use an image logo */}
-        {/* <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> --> */}
         <h2>
           A passionate self-taught <span>front-end engineer</span>
         </h2>
