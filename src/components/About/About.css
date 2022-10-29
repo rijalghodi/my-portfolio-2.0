@@ -1,5 +1,5 @@
 #about {
-  background-color: var(--secondary);
+  background-color: var(--secondary-2);
   color: var(--primary-2);
   padding-bottom: 100px;
 }
@@ -25,12 +25,4 @@
 .introduction p {
   font-size: 1.4rem;
   line-height: 1.6;
-}
-
-#about a:hover {
-  color: var(--accent-2);
-}
-
-#about a {
-  color: var(--primary);
 }

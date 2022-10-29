@@ -3,9 +3,12 @@
 }
 
 .certificate {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 50px 0px; */
   display: flex;
   border: 1px solid rgba(0, 0, 0, 0.14);
+  background-color: var(--primary);
+  color: var(--secondary);
+  border-radius: 6px;
 }
 
 .certificate img {
@@ -21,9 +24,8 @@
   font-size: 1.5rem;
 }
 
-.certificate-body p span,
-.certificate-body a {
-  color: var(--accent-2) !important;
+.certificate-body .company-link {
+  color: var(--accent) !important;
 }
 
 .certificate-body buttons {

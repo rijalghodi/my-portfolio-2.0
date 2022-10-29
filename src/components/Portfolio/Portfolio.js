@@ -39,7 +39,7 @@ export default function Portfolio() {
         </div>
         <div className="row justify-content-center">
           <div className="col-auto">
-            <Link to={"/portfolio-full"}>
+            <Link to={"/portfolio-full#portfolio-full"}>
               <button className="btn dark-btn-primary big-btn">See more</button>
             </Link>
           </div>

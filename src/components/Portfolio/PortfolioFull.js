@@ -8,11 +8,11 @@ import { IoMdArrowRoundBack } from "react-icons/io";
 
 export default function PortfolioFull() {
   return (
-    <div className="container-fluid portfolio">
+    <section id="portfolio-full" className="portfolio">
       <div className="container">
         <div className="row justify-content-start">
           <div className="col-auto">
-            <Link to={"/"}>
+            <Link to={"/#portfolio"}>
               <button className="btn dark-btn-primary">
                 <IoMdArrowRoundBack style={{ fontSize: "1.4rem", marginRight: "0.5rem" }} />
                 Back to Home
@@ -47,6 +47,6 @@ export default function PortfolioFull() {
             ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
