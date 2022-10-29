@@ -9,7 +9,7 @@ export default function Jumbotron() {
     <div id="jumbotron" className="row justify-content-center">
       <div className="container">
         <div className="hero-wrapper">
-          <img src={smilingTitan} alt="Hero Image" className="hero" />
+          <img src={smilingTitan} alt="Me" className="hero" />
         </div>
         <h1>
           <a href="index.html">RIJAL GHODI</a>

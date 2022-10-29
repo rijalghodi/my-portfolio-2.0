@@ -52,7 +52,7 @@
 
 @media screen and (max-width: 992px) {
   .portfolio .project .portfolio-info {
-    opacity: 0.84;
+    opacity: 0.8;
   }
 }
 
@@ -82,6 +82,13 @@
   border-right: 4px solid var(--accent);
   transition: all 0.5s ease 0s;
   z-index: 9994;
+}
+
+@media screen and (max-width: 992px) {
+  .portfolio .project .portfolio-info::after,
+  .portfolio .project .portfolio-info::before {
+    display: none;
+  }
 }
 
 .portfolio .project .portfolio-links {
