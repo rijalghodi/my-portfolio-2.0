@@ -1,7 +1,6 @@
 import React from "react";
 import certificatesData from "../../store/certificatesData";
 import "./Certificates.css";
-import { FiExternalLink } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import Certificate from "./Certificate";

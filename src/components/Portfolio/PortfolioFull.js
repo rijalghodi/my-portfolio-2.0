@@ -5,6 +5,7 @@ import "./PortfolioFull.css";
 import projectsData from "../../store/projectsData";
 import "../../index.css";
 import { IoMdArrowRoundBack } from "react-icons/io";
+import Project from "./Project";
 
 export default function PortfolioFull() {
   return (
@@ -26,23 +27,9 @@ export default function PortfolioFull() {
 
         <div className="portfolio-container row justify-content-center align-item-start pb-5 mb-4">
           {projectsData &&
-            projectsData.map(({ title, description, githubUrl, deploymentUrl, image }) => (
-              <div key={title} className="col-lg-4 col-md-6 gy-4 gx-4">
-                <div className="portfolio-wrap">
-                  <img src={image} className="img-fluid" alt="Songify" />
-                  <div className="portfolio-info">
-                    <h3>{title}</h3>
-                    <p>{description}</p>
-                    <div className="portfolio-links">
-                      <a href={deploymentUrl} target="_blank" rel="noreferrer" title="View project">
-                        <button className="btn light-btn-primary">Visit Web</button>
-                      </a>
-                      <a href={githubUrl} target="_blank" rel="noreferrer" title="Open github">
-                        <button className="btn light-btn-secondary">See Github</button>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+            projectsData.map((project) => (
+              <div key={project.title} className="col-lg-4 col-md-6 gy-4 gx-4">
+                <Project data={project} />
               </div>
             ))}
         </div>

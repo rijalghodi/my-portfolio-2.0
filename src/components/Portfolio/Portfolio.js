@@ -3,6 +3,7 @@ import "./Portfolio.css";
 import projectsData from "../../store/projectsData";
 
 import { Link } from "react-router-dom";
+import Project from "./Project";
 
 export default function Portfolio() {
   return (
@@ -17,23 +18,9 @@ export default function Portfolio() {
             projectsData
               .filter(({ isPinned }) => isPinned)
               .slice(0, 6)
-              .map(({ title, description, githubUrl, deploymentUrl, image }) => (
-                <div key={title} className="col-lg-4 col-md-6 gy-4 gx-4">
-                  <div className="portfolio-wrap">
-                    <img src={image} className="img-fluid" alt="Songify" />
-                    <div className="portfolio-info">
-                      <h3>{title}</h3>
-                      <p>{description}</p>
-                      <div className="portfolio-links">
-                        <a href={deploymentUrl} target="_blank" rel="noreferrer" title="View project">
-                          <button className="btn light-btn-primary">Visit Web</button>
-                        </a>
-                        <a href={githubUrl} target="_blank" rel="noreferrer" title="Open github">
-                          <button className="btn light-btn-secondary">See Github</button>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+              .map((project) => (
+                <div key={project.title} className="col-lg-4 col-md-6 gy-4 gx-4">
+                  <Project data={project} />
                 </div>
               ))}
         </div>
