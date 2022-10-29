@@ -45,7 +45,7 @@ export default function Header() {
   return (
     <header id="header" className="container-fluid ">
       <div className="container header-wrap">
-        <a href="http://localhost:3000/" className="navbar-brand">
+        <a href="http://rijalghodi.vercel.app" className="navbar-brand">
           <img src={myLogoLight} alt="My Logo" />
         </a>
         <nav id="navbar" className="navbar  navbar-expand-lg  ">
