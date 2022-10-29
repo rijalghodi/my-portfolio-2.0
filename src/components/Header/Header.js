@@ -16,25 +16,25 @@ export default function Header() {
 
   if (openMobileNav) {
     return (
-      <nav id="navbar-mobile" className="navbar-mobile">
+      <nav id="navbar-mobile" className="navbar-mobile" onClick={handleClick}>
         <ul>
           <li>
-            <a className="nav-link" href="#jumbotron" onClick={handleClick}>
+            <a className="nav-link" href="#jumbotron">
               Home
             </a>
           </li>
           <li>
-            <a className="nav-link" href="#about" onClick={handleClick}>
+            <a className="nav-link" href="#about">
               About
             </a>
           </li>
           <li>
-            <a className="nav-link" href="#portfolio" onClick={handleClick}>
+            <a className="nav-link" href="#portfolio">
               Portfolio
             </a>
           </li>
           <li className="contact-button">
-            <a className="nav-link" href="#contact" onClick={handleClick}>
+            <a className="nav-link" href="#contact">
               Contact
             </a>
           </li>

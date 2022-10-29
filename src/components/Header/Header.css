@@ -112,6 +112,7 @@
 
 .mobile-nav-toggle {
   background-color: var(--primary);
+  border-radius: 3px;
   color: #fff;
   padding: 0.3rem 0.4rem;
   font-size: 1.7rem;
