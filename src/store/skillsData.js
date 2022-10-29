@@ -21,6 +21,11 @@ const skillsData = [
         projects: [],
       },
       {
+        app: "Mocha",
+        checklist: ["Doing Test"],
+        projects: [],
+      },
+      {
         app: "Sass",
         checklist: ["Layouting", "Responsive", "Animation"],
         projects: [],
@@ -52,6 +57,11 @@ const skillsData = [
         checklist: ["Basic Redux", "React-Redux", "Redux Toolkit"],
         projects: [],
       },
+      {
+        app: "Jest",
+        checklist: ["Doing Test"],
+        projects: [],
+      },
     ],
   },
   {
@@ -66,6 +76,11 @@ const skillsData = [
       {
         app: "Webpack",
         checklist: ["Basic Webpack", "Install", "Asar Adzan"],
+        projects: [],
+      },
+      {
+        app: "npm",
+        checklist: ["Manage package", "Create package"],
         projects: [],
       },
     ],
