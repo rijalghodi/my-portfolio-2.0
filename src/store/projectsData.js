@@ -7,6 +7,8 @@ import randomQuotes from "../assets/image/portfolio/random-quote.png";
 import bookface from "../assets/image/portfolio/book-face.png";
 import coffeeWeb from "../assets/image/portfolio/coffee-website.png";
 import miniReddit from "../assets/image/portfolio/mini-reddit.png";
+import markdownViewer from "../assets/image/portfolio/markdown-viewer.png";
+import passingThoughts from "../assets/image/portfolio/passing-thoughts.png";
 
 /*
 Template
@@ -15,9 +17,9 @@ Template
    description: "",
    githubUrl: "",
    deploymentUrl: "",
-   image: ,
+   image: miniReddit,
    category: "app",
-   date: new Date("2022-09-21"),
+   date: new Date("2022-11-01"),
    isPinned: true,
  },
  */
@@ -30,7 +32,7 @@ const projectsData = [
     deploymentUrl: "https://mini-reddit-rijalghodi.vercel.app/",
     image: miniReddit,
     category: "app",
-    date: new Date("2022-10-1"),
+    date: new Date("2022-10-01"),
     isPinned: true,
   },
   {
@@ -74,6 +76,16 @@ const projectsData = [
     isPinned: true,
   },
   {
+    title: "Markdown Viewer",
+    description: "Type and look markdown simultaneously ",
+    githubUrl: "https://github.com/rijalghodi/markdown-viewer",
+    deploymentUrl: "https://markdown-viewer-rijalghodi.vercel.app/",
+    image: markdownViewer,
+    category: "app",
+    date: new Date("2022-10-01"),
+    isPinned: true,
+  },
+  {
     title: "Quotes Machine",
     description: "Generates random great quotes from great people",
     githubUrl: "https://github.com/rijalghodi/random-quote",
@@ -82,6 +94,16 @@ const projectsData = [
     category: "app",
     date: new Date("2022-09-21"),
     isPinned: true,
+  },
+  {
+    title: "Passing Thoughts",
+    description: "Remove your thoughts after 15 seconds",
+    githubUrl: "https://github.com/rijalghodi/passing-thought",
+    deploymentUrl: "https://passing-thought.vercel.app/",
+    image: passingThoughts,
+    category: "app",
+    date: new Date("2022-10-01"),
+    isPinned: false,
   },
   {
     title: "Go Pets",
