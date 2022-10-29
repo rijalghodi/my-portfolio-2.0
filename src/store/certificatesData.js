@@ -3,6 +3,18 @@
 import codecademyLogo from "../assets/image/logos/codecademy.jpeg";
 import freecodecampLogo from "../assets/image/logos/freecodecamp.jpeg";
 
+/*
+Template:
+  {
+    title: "",
+    issuedBy: { company: "Codecademy", url: "www.codecademy.com", companyLogo: codecademyLogo },
+    date: new Date("2022-10-01"),
+    description: "",
+    courseUrl: "",
+    credential: "",
+  },
+*/
+
 const certificatesData = [
   {
     title: "Front-End Engineer Career Path",
@@ -28,16 +40,22 @@ const certificatesData = [
     courseUrl: "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
     credential: "https://www.freecodecamp.org/certification/rijalghodi/javascript-algorithms-and-data-structures",
   },
+  {
+    title: "Learn Bootstrap Course",
+    issuedBy: { company: "Codecademy", url: "www.codecademy.com", companyLogo: codecademyLogo },
+    date: new Date("2022-10-30"),
+    description: "Learn how to use one of the most popular front-end frameworks, Bootstrap 4",
+    courseUrl: "https://www.codecademy.com/learn/learn-bootstrap",
+    credential: "https://www.codecademy.com/profiles/rijalghodi/certificates/0595479d03627a8cb816b069000e4d06",
+  },
+  {
+    title: "Learn React Native Course",
+    issuedBy: { company: "Codecademy", url: "www.codecademy.com", companyLogo: codecademyLogo },
+    date: new Date("2022-10-15"),
+    description: "Build mobile apps with JavaScript and React, using Expo and React Native",
+    courseUrl: "https://www.codecademy.com/learn/learn-react-native",
+    credential: "https://www.codecademy.com/profiles/rijalghodi/certificates/458aef4eef5f5130685423fc15e6493d",
+  },
 ];
 
 export default certificatesData;
-/*
-  {
-    title: "",
-    issuedBy: { company: "", url: "www.freecodecamp.org" },
-    date: new Date("2022-08-22"),
-    description: "",
-    image: responsiveWebCertificate,
-    credential: "",
-  },
-  */
