@@ -2,6 +2,10 @@
   margin-top: 0px;
 }
 
+.certificate-list {
+  padding: 0;
+}
+
 .certificate {
   /* box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 50px 0px; */
   display: flex;
@@ -24,9 +28,23 @@
   color: var(--accent) !important;
 }
 
-.certificate-body buttons {
+.certificate-body .buttons {
   display: flex;
-  gap: 30px;
+  gap: 0.7rem;
+}
+
+.certificate-body .buttons .what-i-learn,
+.certificate-body .buttons .show-credential {
+  margin: 0 !important;
+}
+
+@media screen and (max-width: 470px) {
+  .certificate-body .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 150px;
+  }
 }
 
 #certificates-full {

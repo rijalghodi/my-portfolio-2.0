@@ -16,13 +16,13 @@
 
 @media screen and (max-width: 992px) {
   :root {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
 @media screen and (max-width: 768px) {
   :root {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
@@ -114,7 +114,7 @@ a:hover {
 }
 
 .dark-btn-secondary {
-  background-color: transparent;
+  background-color: var(--secondary) !important;
   color: var(--primary) !important;
   border: 2px solid var(--primary);
   border-radius: 6px;
