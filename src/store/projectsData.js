@@ -6,8 +6,33 @@ import goPets from "../assets/image/portfolio/go-pets.jpg";
 import randomQuotes from "../assets/image/portfolio/random-quote.png";
 import bookface from "../assets/image/portfolio/book-face.png";
 import coffeeWeb from "../assets/image/portfolio/coffee-website.png";
+import miniReddit from "../assets/image/portfolio/mini-reddit.png";
+
+/*
+Template
+{
+   title: "",
+   description: "",
+   githubUrl: "",
+   deploymentUrl: "",
+   image: ,
+   category: "app",
+   date: new Date("2022-09-21"),
+   isPinned: true,
+ },
+ */
 
 const projectsData = [
+  {
+    title: "Mini Reddit",
+    description: "Simple & beutiful Reddit App Remake",
+    githubUrl: "https://github.com/rijalghodi/mini-reddit",
+    deploymentUrl: "https://mini-reddit-rijalghodi.vercel.app/",
+    image: miniReddit,
+    category: "app",
+    date: new Date("2022-10-1"),
+    isPinned: true,
+  },
   {
     title: "Songify",
     description: "Search songs, maka playlist, and save it into the spotify account",
@@ -92,16 +117,3 @@ const projectsData = [
 ];
 
 export default projectsData;
-
-/*
-{
-   title: "",
-   description: "",
-   githubUrl: "",
-   deploymentUrl: "",
-   image: ,
-   category: "app",
-   date: new Date("2022-09-21"),
-   isPinned: true,
- },
- */
