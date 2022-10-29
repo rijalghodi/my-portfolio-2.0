@@ -24,7 +24,9 @@ export default function Certificates() {
         <div className="row justify-content-center">
           <div className="col-auto">
             <Link to={"/certificates-full#certificates-full"}>
-              <button className="btn dark-btn-primary big-btn">See more</button>
+              <button type="button" className="btn dark-btn-primary big-btn">
+                Show more
+              </button>
             </Link>
           </div>
         </div>

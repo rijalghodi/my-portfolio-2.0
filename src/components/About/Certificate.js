@@ -14,11 +14,15 @@ export default function Certificate({ data }) {
         </a>
         <p>Issued {date.toDateString().slice(4)}</p>
         <div className="buttons">
-          <a href={courseUrl} target="_blank" rel="noreferrer" className="btn light-btn-secondary what-i-learn">
-            What I Learned
+          <a href={courseUrl} target="_blank" rel="noreferrer">
+            <button type="button" className="btn light-btn-secondary what-i-learn">
+              What I Learned
+            </button>
           </a>
-          <a href={credential} target="_blank" rel="noreferrer" className="btn light-btn-primary ms-2 show-credential">
-            Show credential <FiExternalLink />
+          <a href={credential} target="_blank" rel="noreferrer">
+            <button type="button" className="btn light-btn-primary ms-2 show-credential">
+              Show credential <FiExternalLink />
+            </button>
           </a>
         </div>
       </div>

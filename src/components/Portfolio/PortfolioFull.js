@@ -14,7 +14,7 @@ export default function PortfolioFull() {
         <div className="row justify-content-start">
           <div className="col-auto">
             <Link to={"/#portfolio"}>
-              <button className="btn dark-btn-primary">
+              <button type="button" className="btn dark-btn-primary mb-5">
                 <IoMdArrowRoundBack style={{ fontSize: "1.4rem", marginRight: "0.5rem" }} />
                 Back to Home
               </button>
