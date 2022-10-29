@@ -44,19 +44,20 @@ a {
 }
 
 a:hover {
-  color: var(--accent);
+  color: inherit;
   text-decoration: none;
 }
 
-/* LIGHT BUTTON */
-.my-btn-primary:hover {
+/* (GREEN WHITE) BRIGHT BUTTON */
+
+.bright-btn-primary:hover {
   background-color: var(--accent) !important;
   border: 2px solid var(--accent) !important;
   color: var(--secondary) !important;
   transform: translateY(-3px);
 }
 
-.my-btn-primary {
+.bright-btn-primary {
   background-color: var(--accent-2);
   color: var(--secondary) !important;
   border: 2px solid var(--accent-2);
@@ -64,13 +65,13 @@ a:hover {
   transition: 0.3s ease;
 }
 
-.my-btn-secondary:hover {
+.bright-btn-secondary:hover {
   background-color: var(--accent-2) !important;
   color: var(--secondary) !important;
   transform: translateY(-3px);
 }
 
-.my-btn-secondary {
+.bright-btn-secondary {
   background-color: transparent;
   color: var(--accent-2) !important;
   border: 2px solid var(--accent-2);
@@ -78,7 +79,7 @@ a:hover {
   transition: 0.3s ease;
 }
 
-/* DARK BUTTON */
+/* (BLACK-GREEN) DARK BUTTON */
 
 .dark-btn-primary:hover {
   background-color: #132f4b !important;
@@ -108,7 +109,7 @@ a:hover {
   transition: 0.3s ease;
 }
 
-/* GREEEN BUTTON */
+/* GREEEN-BLACK BUTTON (LIGHT)*/
 
 .light-btn-primary:hover {
   background-color: #9ce968 !important;

@@ -21,12 +21,6 @@
   font-size: 1.5rem;
 }
 
-.certificate-body p span:hover,
-.certificate-body a:hover {
-  color: #af44f6 !important;
-  cursor: pointer;
-}
-
 .certificate-body p span,
 .certificate-body a {
   color: var(--accent-2) !important;
@@ -35,4 +29,11 @@
 .certificate-body buttons {
   display: flex;
   gap: 30px;
+}
+
+#certificates-full {
+  background-color: var(--secondary-2);
+  color: var(--primary);
+  padding-top: 70px;
+  padding-bottom: 70px;
 }

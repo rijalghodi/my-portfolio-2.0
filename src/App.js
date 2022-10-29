@@ -8,6 +8,7 @@ import Jumbotron from "./components/Jumbotron/Jumbotron";
 import Portfolio from "./components/Portfolio/Portfolio";
 import PortfolioFull from "./components/Portfolio/PortfolioFull";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import CertificatesFull from "./components/About/CertificatesFull";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       <Switch>
         <Route path="/portfolio-full">
           <PortfolioFull />
+        </Route>
+        <Route path="/certificates-full">
+          <CertificatesFull />
         </Route>
         <Route path="/">
           <Header />

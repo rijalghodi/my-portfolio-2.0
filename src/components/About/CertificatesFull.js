@@ -3,18 +3,29 @@ import certificatesData from "../../store/certificatesData";
 import "./Certificates.css";
 import { FiExternalLink } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import { IoMdArrowRoundBack } from "react-icons/io";
 
-export default function Certificates() {
+export default function CertificatesFull() {
   return (
-    <div id="certificates" className="container">
+    <div id="certificates-full" className="container-fluid">
       <div className="container">
+        <div className="row justify-content-start">
+          <div className="col-auto">
+            <Link to={"/"}>
+              <button className="btn dark-btn-primary">
+                <IoMdArrowRoundBack style={{ fontSize: "1.4rem", marginRight: "0.5rem" }} />
+                Back to Home
+              </button>
+            </Link>
+          </div>
+        </div>
         <div className="section-title">
           <h2>Certificates I Earned</h2>
         </div>
 
         <ul className="certificate-list pb-4">
           {certificatesData &&
-            certificatesData.slice(0, 3).map(({ title, issuedBy, date, courseUrl, credential }) => (
+            certificatesData.map(({ title, issuedBy, date, courseUrl, credential }) => (
               <li key={title} className="row gy-lg-3 gy-2 justify-content-center">
                 <div className="certificate col-lg-8 col-md-10 col-sm-12 py-4 px-4 ">
                   <img src={issuedBy.companyLogo} className="card-img-top" alt={title} />
@@ -35,14 +46,6 @@ export default function Certificates() {
               </li>
             ))}
         </ul>
-
-        <div className="row justify-content-center">
-          <div className="col-auto">
-            <Link to={"/certificates-full"}>
-              <button className="btn bright-btn-primary big-btn">See more</button>
-            </Link>
-          </div>
-        </div>
       </div>
     </div>
   );

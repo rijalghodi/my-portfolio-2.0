@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import myLogoDark from "../../assets/image/logo-rg-dark.svg";
 import myLogoLight from "../../assets/image/logo-rg-light.svg";
 import "../Jumbotron/Jumbotron.css";
 import SocialLinks from "./SocialLinks";

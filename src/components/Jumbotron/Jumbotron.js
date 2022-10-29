@@ -1,7 +1,5 @@
 import React from "react";
 import "./Jumbotron.css";
-import { FaGithub, FaLinkedinIn, FaTwitter, FaHome } from "react-icons/fa";
-import { GrMail } from "react-icons/gr";
 import "../Footer/Footer.css";
 import SocialLinks from "../Footer/SocialLinks";
 

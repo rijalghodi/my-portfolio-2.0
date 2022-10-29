@@ -1,15 +1,10 @@
 import React from "react";
 import "./Portfolio.css";
 import projectsData from "../../store/projectsData";
-import { FaGithub } from "react-icons/fa";
-import { useState } from "react";
+
 import { Link } from "react-router-dom";
 
 export default function Portfolio() {
-  const [isFull, setIsFull] = useState(false);
-  const seeMore = () => {
-    setIsFull(true);
-  };
   return (
     <section id="portfolio" className="portfolio">
       <div className="container">
@@ -45,9 +40,7 @@ export default function Portfolio() {
         <div className="row justify-content-center">
           <div className="col-auto">
             <Link to={"/portfolio-full"}>
-              <button className="btn dark-btn-primary big-btn" onClick={seeMore}>
-                See more
-              </button>
+              <button className="btn dark-btn-primary big-btn">See more</button>
             </Link>
           </div>
         </div>

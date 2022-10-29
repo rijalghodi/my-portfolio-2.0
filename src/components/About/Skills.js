@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Skills.css";
 import skillsData from "../../store/skillsData";
 

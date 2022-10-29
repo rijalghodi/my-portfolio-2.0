@@ -1,14 +1,15 @@
 import React from "react";
 import "./Footer.css";
-import { FaInstagram, FaGithub, FaLinkedinIn, FaTwitter, FaMail, FaHome } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaTwitter, FaHome } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
+import { Link } from "react-router-dom";
 
-export default function () {
+export default function SocialLinks() {
   return (
     <div className="social-links  mb-5">
-      <a href="#" className="email" title="Home Website">
+      <Link to={"/#header"} className="home" title="Home Website">
         <FaHome />
-      </a>
+      </Link>
       <a href="mailto:rijalghodi10@gmail.com" className="email" title="Email">
         <GrMail />
       </a>
