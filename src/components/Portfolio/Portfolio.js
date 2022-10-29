@@ -13,13 +13,13 @@ export default function Portfolio() {
           <h2>My Recent Works</h2>
         </div>
 
-        <div className="portfolio-container row justify-content-center align-item-start pb-5 mb-4">
+        <div className="portfolio-container row justify-content-center align-item-start px-2 pb-5 mb-4">
           {projectsData &&
             projectsData
               .filter(({ isPinned }) => isPinned)
               .slice(0, 6)
               .map((project) => (
-                <div key={project.title} className="col-lg-4 col-md-6 gy-4 gx-4">
+                <div key={project.title} className="col-lg-4 col-md-6 col-sm-10 col-10 gy-4 gx-4">
                   <Project data={project} />
                 </div>
               ))}

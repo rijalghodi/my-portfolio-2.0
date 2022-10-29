@@ -25,6 +25,13 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 768px) {
+  #jumbotron .hero-wrapper {
+    width: 130px;
+    height: 130px;
+  }
+}
+
 #jumbotron .hero {
   width: 100%;
   object-fit: cover;

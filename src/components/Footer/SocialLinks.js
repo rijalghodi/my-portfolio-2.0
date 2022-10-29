@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function SocialLinks() {
   return (
-    <div className="social-links  mb-5">
+    <div className="social-links  mb-4 mt-5">
       <Link to={"/#header"} className="home" title="Home Website">
         <FaHome />
       </Link>

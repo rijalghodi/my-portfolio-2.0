@@ -15,7 +15,7 @@ export default function Certificates() {
         <ul className="certificate-list pb-4">
           {certificatesData &&
             certificatesData.slice(0, 3).map((certificate) => (
-              <li key={certificate.title} className="row gy-lg-4 gy-2 justify-content-center">
+              <li key={certificate.title} className="row gy-lg-4 gy-3 justify-content-center">
                 <Certificate data={certificate} />
               </li>
             ))}
