@@ -7,7 +7,7 @@ features of React & Redux to manage the state and increase responsiveness
 
 ## How to Run
 
-Go to this link to visit the project deployment
+Go to [this link](https://rijalghodi-portfolio.vercel.app/) to visit the project deployment
 
 To see the project boilerplate and run it in your local computer, do:
 
