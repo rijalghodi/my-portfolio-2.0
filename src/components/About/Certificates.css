@@ -24,6 +24,10 @@
   font-size: 1.1rem;
 }
 
+.certificate-body h3 {
+  font-size: 1.4rem;
+}
+
 .certificate-body .company-link {
   color: var(--accent) !important;
 }
