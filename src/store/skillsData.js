@@ -6,23 +6,13 @@ const skillsData = [
     category: "Web Dev",
     skills: [
       {
-        app: "HTML",
+        app: "Tailwind",
         checklist: ["Basic HTML", "Semantic HTML", "SEO"],
         projects: [{ name: "BookFace", url: "#" }],
       },
       {
-        app: "CSS",
+        app: "Bootstrap",
         checklist: ["Layouting", "Responsive", "Animation"],
-        projects: [],
-      },
-      {
-        app: "JavaScript",
-        checklist: ["DOM Manipulation", "Asynchronoush JavaScript", "Fetch API"],
-        projects: [],
-      },
-      {
-        app: "Mocha",
-        checklist: ["Doing Test"],
         projects: [],
       },
       {
@@ -31,7 +21,26 @@ const skillsData = [
         projects: [],
       },
       {
-        app: "Bootstrap",
+        app: "Mocha",
+        checklist: ["Doing Test"],
+        projects: [],
+      },
+      {
+        app: "JavaScript",
+        checklist: [
+          "DOM Manipulation",
+          "Asynchronoush JavaScript",
+          "Fetch API",
+        ],
+        projects: [],
+      },
+      {
+        app: "HTML",
+        checklist: ["Basic HTML", "Semantic HTML", "SEO"],
+        projects: [{ name: "BookFace", url: "#" }],
+      },
+      {
+        app: "CSS",
         checklist: ["Layouting", "Responsive", "Animation"],
         projects: [],
       },
@@ -45,12 +54,22 @@ const skillsData = [
     category: "Front-end Framework",
     skills: [
       {
-        app: "React",
-        checklist: ["React", "Hooks", "Fetch"],
+        app: "React.js",
+        checklist: ["React", "Hooks", "Fetch API"],
         projects: [
           { name: "Flashcards", url: "#" },
           { name: "Appointments", url: "#" },
         ],
+      },
+      {
+        app: "Vue.js",
+        checklist: ["Doing Test"],
+        projects: [],
+      },
+      {
+        app: "Node.js",
+        checklist: ["Doing Test"],
+        projects: [],
       },
       {
         app: "Redux",
@@ -58,7 +77,7 @@ const skillsData = [
         projects: [],
       },
       {
-        app: "Jest",
+        app: "REST API",
         checklist: ["Doing Test"],
         projects: [],
       },
@@ -70,7 +89,14 @@ const skillsData = [
     skills: [
       {
         app: "Git & Github",
-        checklist: ["Initiate", "Git Branch", "Git Merge", "Git Remote", "Git Rebase", "Git Ignore"],
+        checklist: [
+          "Initiate",
+          "Git Branch",
+          "Git Merge",
+          "Git Remote",
+          "Git Rebase",
+          "Git Ignore",
+        ],
         projects: [],
       },
       {
