@@ -36,6 +36,16 @@ const projectsData = [
     isPinned: true,
   },
   {
+    title: "Colors Check",
+    description: "Test your web colors balance here!",
+    githubUrl: "https://github.com/rijalghodi/colors-check",
+    deploymentUrl: "https://colors-check.vercel.app/",
+    image: colorsCheck,
+    category: "app",
+    date: new Date("2022-11-11"),
+    isPinned: true,
+  },
+  {
     title: "Songify",
     description:
       "Search songs, maka playlist, and save it into the spotify account",
@@ -46,16 +56,7 @@ const projectsData = [
     date: new Date("2022-09-21"),
     isPinned: true,
   },
-  {
-    title: "Colors Check",
-    description: "Test your web color combination balance here!",
-    githubUrl: "https://github.com/rijalghodi/colors-check",
-    deploymentUrl: "https://colors-check.vercel.app/",
-    image: colorsCheck,
-    category: "app",
-    date: new Date("2022-11-11"),
-    isPinned: true,
-  },
+
   {
     title: "Flashcards",
     description: "Simple App to create flashcards and quizzes",
