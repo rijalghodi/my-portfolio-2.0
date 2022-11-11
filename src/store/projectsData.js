@@ -9,7 +9,7 @@ import coffeeWeb from "../assets/image/portfolio/coffee-website.png";
 import miniReddit from "../assets/image/portfolio/mini-reddit.png";
 import markdownViewer from "../assets/image/portfolio/markdown-viewer.png";
 import passingThoughts from "../assets/image/portfolio/passing-thoughts.png";
-
+import colorsCheck from "../assets/image/portfolio/colors-check.png";
 /*
 Template
 {
@@ -37,12 +37,23 @@ const projectsData = [
   },
   {
     title: "Songify",
-    description: "Search songs, maka playlist, and save it into the spotify account",
+    description:
+      "Search songs, maka playlist, and save it into the spotify account",
     githubUrl: "https://github.com/rijalghodi/songify-child-of-sportify",
     deploymentUrl: "https://rijalghodi-songify.netlify.app/",
     image: songify,
     category: "app",
     date: new Date("2022-09-21"),
+    isPinned: true,
+  },
+  {
+    title: "Colors Check",
+    description: "Test your web color combination balance here!",
+    githubUrl: "https://github.com/rijalghodi/colors-check",
+    deploymentUrl: "https://colors-check.vercel.app/",
+    image: colorsCheck,
+    category: "app",
+    date: new Date("2022-11-11"),
     isPinned: true,
   },
   {
