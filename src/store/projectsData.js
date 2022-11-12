@@ -10,6 +10,7 @@ import miniReddit from "../assets/image/portfolio/mini-reddit.png";
 import markdownViewer from "../assets/image/portfolio/markdown-viewer.png";
 import passingThoughts from "../assets/image/portfolio/passing-thoughts.png";
 import colorsCheck from "../assets/image/portfolio/colors-check.png";
+import myPortfolio20 from "../assets/image/portfolio/my-portfolio-2-0.png";
 /*
 Template
 {
@@ -56,17 +57,17 @@ const projectsData = [
     date: new Date("2022-09-21"),
     isPinned: true,
   },
-
   {
-    title: "Flashcards",
-    description: "Simple App to create flashcards and quizzes",
-    githubUrl: "https://github.com/rijalghodi/flashcards",
-    deploymentUrl: "https://rijalghodi-flashcards.netlify.app/",
-    image: flashcards,
+    title: "Portfolio 2.0",
+    description: "My Latest-Portfolio Homepage",
+    githubUrl: "https://github.com/rijalghodi/my-portfolio-2.0",
+    deploymentUrl: "https://rijalghodi.vercel.app",
+    image: myPortfolio20,
     category: "app",
-    date: new Date("2022-09-21"),
+    date: new Date("2022-10-29"),
     isPinned: true,
   },
+
   {
     title: "Appointments",
     description: "Organize appointments and contacts",
@@ -83,6 +84,16 @@ const projectsData = [
     githubUrl: "https://github.com/rijalghodi/film-finder",
     deploymentUrl: "https://rijalghodi.github.io/film-finder",
     image: filmFinder,
+    category: "app",
+    date: new Date("2022-09-21"),
+    isPinned: true,
+  },
+  {
+    title: "Flashcards",
+    description: "Simple App to create flashcards and quizzes",
+    githubUrl: "https://github.com/rijalghodi/flashcards",
+    deploymentUrl: "https://rijalghodi-flashcards.netlify.app/",
+    image: flashcards,
     category: "app",
     date: new Date("2022-09-21"),
     isPinned: true,
