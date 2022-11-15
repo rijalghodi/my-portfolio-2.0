@@ -11,6 +11,7 @@ import markdownViewer from "../assets/image/portfolio/markdown-viewer.png";
 import passingThoughts from "../assets/image/portfolio/passing-thoughts.png";
 import colorsCheck from "../assets/image/portfolio/colors-check.png";
 import myPortfolio20 from "../assets/image/portfolio/my-portfolio-2-0.png";
+import idealyst from "../assets/image/portfolio/idealyst.png";
 /*
 Template
 {
@@ -34,6 +35,16 @@ const projectsData = [
     image: miniReddit,
     category: "app",
     date: new Date("2022-10-01"),
+    isPinned: true,
+  },
+  {
+    title: "Idealyst",
+    description: "Capture your ideas efficiently",
+    githubUrl: "https://github.com/rijalghodi/idealyst",
+    deploymentUrl: "https://idealyst-rijalghodi.vercel.app/",
+    image: idealyst,
+    category: "app",
+    date: new Date("2022-11-15"),
     isPinned: true,
   },
   {
