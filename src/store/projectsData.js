@@ -12,7 +12,7 @@ import passingThoughts from "../assets/image/portfolio/passing-thoughts.png";
 import colorsCheck from "../assets/image/portfolio/colors-check.png";
 import myPortfolio20 from "../assets/image/portfolio/my-portfolio-2-0.png";
 import idealyst from "../assets/image/portfolio/idealyst.png";
-import quizzz from "../assets/image/portfolio/quizz-login.png";
+import quizzz from "../assets/image/portfolio/quizzz-login.png";
 /*
 Template
 {
