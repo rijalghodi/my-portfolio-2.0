@@ -12,6 +12,7 @@ import passingThoughts from "../assets/image/portfolio/passing-thoughts.png";
 import colorsCheck from "../assets/image/portfolio/colors-check.png";
 import myPortfolio20 from "../assets/image/portfolio/my-portfolio-2-0.png";
 import idealyst from "../assets/image/portfolio/idealyst.png";
+import quizzz from "../assets/image/portfolio/quizz-login.png";
 /*
 Template
 {
@@ -27,6 +28,17 @@ Template
  */
 
 const projectsData = [
+  {
+    title: "Quizzz",
+    description:
+      "Multiple-choice quiz in a personal and convenient environment",
+    githubUrl: "https://github.com/rijalghodi/quizzz",
+    deploymentUrl: "quizzz-v1.vercel.app",
+    image: quizzz,
+    category: "app",
+    date: new Date("2022-11-20"),
+    isPinned: true,
+  },
   {
     title: "Mini Reddit",
     description: "Simple & beutiful Reddit App Remake",
