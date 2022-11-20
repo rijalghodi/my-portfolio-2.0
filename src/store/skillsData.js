@@ -54,6 +54,14 @@ const skillsData = [
     category: "Front-end Framework",
     skills: [
       {
+        app: "Next.js",
+        checklist: ["React", "Hooks", "Fetch API"],
+        projects: [
+          { name: "Flashcards", url: "#" },
+          { name: "Appointments", url: "#" },
+        ],
+      },
+      {
         app: "React.js",
         checklist: ["React", "Hooks", "Fetch API"],
         projects: [
