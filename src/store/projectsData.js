@@ -32,8 +32,8 @@ const projectsData = [
     title: "Quizzz",
     description:
       "Multiple-choice quiz in a personal and convenient environment",
-    githubUrl: "https://github.com/rijalghodi/quizzz",
-    deploymentUrl: "quizzz-v1.vercel.app",
+    githubUrl: "https://github.com/rijalghodi/progressive-quizzz",
+    deploymentUrl: "progressive-quizzz.vercel.app",
     image: quizzz,
     category: "app",
     date: new Date("2022-11-20"),
